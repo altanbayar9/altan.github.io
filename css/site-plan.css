@@ -88,3 +88,7 @@ nav a:hover {
   color: #293241 ;
   background-color: #e0fbfc;
 }
+td,th{
+    border-bottom: 1px solid #293241;
+    text-align: left;
+}
