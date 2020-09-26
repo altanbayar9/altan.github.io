@@ -27,10 +27,10 @@ header {
   padding: 1em;
   text-align: center;
   color: var(--accent2-color);
-  background-color: #3d5a80 ;
+  background-color: #293241 ;
 }
 header > h1 {
-  color: #ee6c4d;
+  color: white;
 }
 p {
   font-family: var(--paragraph-font);
@@ -63,8 +63,8 @@ p {
   background-color: var(--accent2-color);
 }
 nav {
-  background-color:#3d5a80;
-  color: white;
+  color: white; 
+    background-color:#98c1d9;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -79,8 +79,9 @@ nav a {
 }
 nav a:link,
 nav a:visited {
-  color:#ee6c4d
+  color:#ee6c4d;
+}
 nav a:hover {
-  color: #98c1d9;
+  color: #293241 ;
   background-color: #e0fbfc;
 }
