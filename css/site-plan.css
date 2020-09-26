@@ -21,20 +21,20 @@ img {
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: var(--heading-font);
-  color: ;
+  color: #042425 ;
 }
 header {
   padding: 1em;
   text-align: center;
   color: var(--accent2-color);
-  background-color: ;
+  background-color: #3d5a80 ;
 }
 header > h1 {
-  color: ;
+  color: #ee6c4d;
 }
 p {
   font-family: var(--paragraph-font);
-  color: ;
+  color: #ee6c4d ;
   padding: 1em;
 }
 .colors {
@@ -63,7 +63,8 @@ p {
   background-color: var(--accent2-color);
 }
 nav {
-  background-color: ;
+  background-color:#3d5a80;
+  color: white;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -78,9 +79,8 @@ nav a {
 }
 nav a:link,
 nav a:visited {
-  color: ;
-}
+  color:#ee6c4d
 nav a:hover {
-  color: ;
-  background-color: ;
+  color: #98c1d9;
+  background-color: #e0fbfc;
 }
