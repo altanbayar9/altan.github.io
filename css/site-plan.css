@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 :root {
   --primary-color: #396e94;
   --secondary-color: #e7c24f;
@@ -63,7 +63,7 @@ p {
   background-color: var(--accent2-color);
 }
 nav {
-  background-color: salmon;
+  background-color: ;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -78,7 +78,7 @@ nav a {
 }
 nav a:link,
 nav a:visited {
-  color: rgb(128, 47, 160));
+  color: ;
 }
 nav a:hover {
   color: ;
