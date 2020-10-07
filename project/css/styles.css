@@ -2,3 +2,28 @@ header, main, footer {
   max-width: 960px;
   margin: 0 auto;
 }
+html{
+    background-color: silver;
+}
+body{
+    background-color: white;
+    margin: 50px;
+}
+picture{
+    background-color:rgb(245, 102, 7);
+    padding:1em;
+}
+section img{
+    background-color: rgb(245, 102, 7);
+    padding: 5em;
+}
+header{
+    background-color:rgb(53, 51, 47);
+    color: white;
+}
+.navigation li{
+    background-color: seashell;
+    text-decoration: none;
+    color:white;
+    display:inline-block
+}
