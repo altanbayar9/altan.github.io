@@ -25,12 +25,23 @@ header, footer{
 }
 .navigation li{
     background-color: rgb(53, 51, 47);
-    color:white;
     padding: 10px;
     margin-top:0;
     float: right;
     text-align: center;
+    display:inline;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    display:inline-block
-    
+}
+li a:hover{
+    background-color: rgb(83, 81, 75);
+}
+.social li{
+    list-style-type: none;
+    display: inline-block;
 }
