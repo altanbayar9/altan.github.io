@@ -1,13 +1,20 @@
+html{
+    background-color: silver;
+}
 header, main, footer {
   max-width: 960px;
   margin: 0 auto;
 }
-html{
-    background-color: silver;
+header{
+    color:white;
+    display: flex;
+    justify-content: center;
 }
 body{
     background-color: white;
-    margin: 50px;
+    margin: 100px;
+    font-size: 16px;
+    font-family: cursive;
 }
 picture{
     background-color:rgb(245, 102, 7);
@@ -17,11 +24,16 @@ section img{
     background-color: rgb(245, 102, 7);
     padding: 2em;
 }
+section p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
 header, footer{
     background-color:rgb(53, 51, 47);
     color: white;
     padding:0;
     margin-bottom: 0;
+    display: flex;
 }
 .navigation li{
     background-color: rgb(53, 51, 47);
@@ -29,7 +41,7 @@ header, footer{
     margin-top:0;
     float: right;
     text-align: center;
-    display:inline;
+    flex: 1 1 auto;
 }
 li a{
     display: block;
@@ -37,6 +49,7 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    dis[lay: flex;
 }
 li a:hover{
     background-color: rgb(83, 81, 75);
