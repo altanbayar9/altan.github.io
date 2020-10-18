@@ -29,6 +29,7 @@ picture .hero-image{
 }
 h2{
     font-family: 'Dancing Script', cursive;
+    text-align: justify;
 }
 p{
     display: block;
@@ -38,16 +39,12 @@ p{
 section, .home-away, .wedding{
     display: flex;
     align-items: center;
-    margin: 200px 0 100px 0;
-}
-.wedding img{
-    padding-left: 700px;
+    margin: 200px 0 350px 0;
 }
 section img{
     background-color: rgb(245, 102, 7);
     padding: 1em;
     position: absolute;
-    margin-bottom: 400px;
    
 }
 section p{
