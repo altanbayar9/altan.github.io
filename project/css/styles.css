@@ -33,6 +33,7 @@ h2{
 }
 p{
     display: block;
+    font-size: larger;
     line-height: 2rem;
     border-bottom: 1px solid black;
 }
@@ -47,12 +48,10 @@ section img{
     position: absolute;
    
 }
-section p{
-    font-family: 'Dancing Script', cursive;
+section, .home-away, .wedding p{
+    font-family: 'PT Sans', sans-serif;
     font-size: 1rem;
-    padding-bottom: 10px;
-    position: relative;
-    padding-left: 350px;
+    padding-bottom: 5px;
 }
 header, footer{
     background-color:rgb(53, 51, 47);
