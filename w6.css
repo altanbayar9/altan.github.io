@@ -8,9 +8,10 @@ body {
 /* Activity 1 styles */
 .content1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    grid-template-columns: 1fr  1fr;
     grid-gap: 20px;
+    justify-items: center;
+    
 }
 
 .red1 {
