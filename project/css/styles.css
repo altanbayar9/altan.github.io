@@ -45,14 +45,16 @@ section, .home-away, .wedding{
 section img{
     background-color: rgb(245, 102, 7);
     padding: 1em;
-    position: absolute;
+    position: relative;
    
 }
+
 section, .home-away, .wedding p{
     font-family: 'PT Sans', sans-serif;
     font-size: 1rem;
     padding-bottom: 5px;
 }
+
 header, footer{
     background-color:rgb(53, 51, 47);
     color: white;
