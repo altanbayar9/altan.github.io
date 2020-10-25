@@ -184,7 +184,6 @@ p{
   display: grid;
  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px
 }
-
 .red6{
   width: 600px;
   height: 200px;
@@ -192,7 +191,6 @@ p{
   grid-row:1/4;
   grid-column:1/3;
 }
-
 .green6{
   width: 200px;
   height: 200px;
@@ -201,7 +199,6 @@ p{
   grid-row: 4/6;
   grid-column:1/3;
 }
-
 .gold6{
   width: 200px;
   height: 600px;
@@ -210,7 +207,6 @@ p{
   grid-column:6/9;
   z-index:1;
 }
-
 .blue6{
   width: 550px;
   height: 550px;
