@@ -155,10 +155,22 @@ li a:hover{
     background-color: rgb(83, 81, 75);
 }
 .contact-info {
+    grid-column: 1/2;
     list-style-type: none;
+    place-self: center;
 }
 footer{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.copyright{
+    grid-column: 1/3;
+    align-self: center;
+    padding-left: 1.5rem;
+
+}
+.social{
+    place-self: center;
 }
 .social li{
     list-style-type: none;
