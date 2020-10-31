@@ -1,6 +1,11 @@
 html{
     background-color: silver;
 }
+@media screen and (max-width: 550px) {
+  main {
+    display: block;
+  }
+}
 header, main, footer {
   max-width: 960px;
   margin: 0 auto;
