@@ -1,11 +1,7 @@
 html{
     background-color: rgb(142, 183, 230);
 }
-@media screen and (max-width: 550px) {
-  body{
-    display: block;
-  }
-}
+
 header, main, footer {
   max-width: 960px;
   margin: 0 auto;
@@ -66,7 +62,7 @@ h1{
     background-color: #e7c24f;
     font-size: 1.2em;
 }
-.main{
+.center{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px 15px;
@@ -130,7 +126,7 @@ p{
     font-size: larger;
     line-height: 2rem;
     border-bottom: 1px solid black;
-    padding: 1.5rem;
+    
 }
     header, footer{
     background-color:rgb(53, 51, 47);
@@ -183,4 +179,155 @@ footer{
 }
 a.terms{
     color: white;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: outset black;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 5px;
+  font-size: 14px;
+  width: 50%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;  
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Free-Amenities {
+    background-color: rgba(180, 198, 216, 0.61);
+}
+#Specialized-Services 
+{background-color: rgba(180, 198, 216, 0.61);}
+.amenities{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px 25px;
+    padding: 1.5rem;
+}
+.bf p {
+    grid-column: 1/2;
+    grid-row: 1;
+    place-content: center; 
+}
+.pool p{
+    grid-column: 2/3;
+    grid-row: 1;
+    align-self: center;
+    
+    
+}
+.exer p{
+    grid-column: 1/2;
+    grid-row: 2;
+    align-self: center;
+    
+}
+.parking p{
+    grid-column: 2/3;
+    grid-row: 2;
+    align-self: center;
+    
+}
+.wifi p{
+    grid-column: 1/2;
+    grid-row: 3;
+    align-self: center;
+    
+}
+.f-sercive p{
+    grid-column: 2/3;
+    grid-row: 3;
+    align-self: center;
+    
+}
+.shuttle p{
+    grid-column: 1/2;
+    grid-row: 4;
+    align-self: center;
+}
+
+.special{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px 25px;
+    padding: 1.5rem;
+}
+.changing-room {
+    grid-column: 1/2;
+    grid-row: 1;
+    justify-self: center;
+}
+.content1{
+    grid-column: 2/3;
+    grid-row: 1;
+    align-self: center;
+}
+.kitchen{
+    grid-column: 2/3;
+    grid-row: 2;
+    justify-self: center;
+}
+.content2 {
+    grid-column: 1/2;
+    grid-row: 2;
+    align-self: center;
+}
+.playroom{
+    grid-column: 1/2;
+    grid-row: 3;
+    justify-self: center;
+}
+.content3{
+    grid-column: 2/3;
+    grid-row: 3;
+    align-self: center;
+}
+.t-history{
+grid-column: 2/3;
+    grid-row: 4;
+    justify-self: center;
+}
+.content4{
+    grid-column: 1/2;
+    grid-row: 4;
+    align-self: center;
+}
+.wedding{
+    grid-column: 1/2;
+    grid-row: 5/7;
+    justify-self: center;
+}
+.content5{
+    grid-column: 2/3;
+    grid-row: 5/7;
+    align-self: center;
+}
+.family-search{
+    grid-column: 2/3;
+    grid-row: 7;
+   justify-self: center;
+}
+.content6{
+    grid-column: 1/2;
+    grid-row: 7;
+    align-self: center;
+}
+
+@media screen and (max-width: 550px) {
+  body{
+    display: block;
+  }
 }
