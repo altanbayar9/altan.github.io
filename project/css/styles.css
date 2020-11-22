@@ -325,9 +325,6 @@ grid-column: 2/3;
     grid-row: 7;
     align-self: center;
 }
-{
-  box-sizing: border-box;
-}
 
 input[type=text],[type=number],[type=date], select, textarea {
   width: 80%;
@@ -394,8 +391,9 @@ input[type=reset]:hover {
 }
 ul{
     list-style-type: none;
-}
-
+img {
+    border: 1px solid #ccc;
+    box-shadow: 10px 10px 10px rgb(43, 42, 42);}
 @media screen and (max-width: 550px) {
   body{
     display: block;
