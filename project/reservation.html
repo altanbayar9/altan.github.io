@@ -1,179 +1,191 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-       <meta charset="utf-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <meta name="description" content="The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world. The owner-operated company caters to temple workers, patrons, and their families by providing specialized services and accommodations that meet the needs of those patrons. The hotel accommodations and services are available to anyone willing to abide by the terms and policies outlined by the company.">   
-       <meta name="author" content="Altanbayar Purevtogtokh">
-       <link rel="stylesheet" href="css/styles.css">
-       <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">    
-       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
-       <title> Reservation | Book Your Home Away From Home | 215-529-9999"</title>
-    </head>
-    <body>
-        <header> 
-           <a href="index.html" class="logo">
-                    <img src="images/logo.png" alt="temple inn logo">
-                </a>
-                 <h1> Reservation </h1>
-        <nav> 
-            <ul class="navigation">
-                <li><a href="index.html"> Home </a></li>
-                <li><a href="amenities.html"> Amenities </a></li>
-                <li><a href="templespotlight.html">Temple Spotlight</a></li>
-                <li><a href="reservation.html">Reservation</a></li>
-            </ul>
-        </nav>
-        </header>
-        <main> 
-            <div class="hero-image">
-                <img src="images/banner(2).png" alt="Hero Image">
-                <div class='action'>
-                    <h3>
-                        Plan your next adventure with us!
-                    </h3>
-                    <button>Contact Us</button>
-                </div>
-            </div> 
-            <div class="topnav">
-            <input type="text" placeholder="Search..">
-            </div> 
-        <div class="container">
-  <form action="/action_page.php">
-  <div class="row">
-    <div class="col-25">
-      <label for="fname">First Name</label>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world. The owner-operated company caters to temple workers, patrons, and their families by providing specialized services and accommodations that meet the needs of those patrons. The hotel accommodations and services are available to anyone willing to abide by the terms and policies outlined by the company.">
+  <meta name="author" content="Altanbayar Purevtogtokh">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sansita+Swashed:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title> Reservation | Book Your Home Away From Home | 215-529-9999"</title>
+</head>
+
+<body>
+  <header>
+    <div class="brand"> <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="temple inn logo">
+      </a>
+      <h1> Reservation </h1>
     </div>
-    <div class="col-75">
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="amenities.html"> Amenities </a></li>
+        <li><a href="templespotlight.html">Temple Spotlight</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="hero-image">
+      <img src="images/banner(2).png" alt="Hero Image">
+      <div class='action'>
+        <h3>
+          Plan your next adventure with us!
+        </h3>
+        <button>Contact Us</button>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="lname">Last Name</label>
+    <div class="topnav">
+      <form class="example" action="action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
     </div>
-    <div class="col-75">
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <div class="container">
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">Your E-mail</label>
+          </div>
+          <div class="col-75">
+            <input type="email" id="email" name="email" placeholder="Your e-mail address">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="state">State</label>
+          </div>
+          <div class="col-75">
+            <select name="state" id="state">
+              <option value="" disabled selected>Select a State</option>
+              <option value="AL">Alabama</option>
+              <option value="AK">Alaska</option>
+              <option value="AZ">Arizona</option>
+              <option value="AR">Arkansas</option>
+              <option value="CA">California</option>
+              <option value="CO">Colorado</option>
+              <option value="CT">Connecticut</option>
+              <option value="DE">Delaware</option>
+              <option value="DC">District Of Columbia</option>
+              <option value="FL">Florida</option>
+              <option value="GA">Georgia</option>
+              <option value="HI">Hawaii</option>
+              <option value="ID">Idaho</option>
+              <option value="IL">Illinois</option>
+              <option value="IN">Indiana</option>
+              <option value="IA">Iowa</option>
+              <option value="KS">Kansas</option>
+              <option value="KY">Kentucky</option>
+              <option value="LA">Luisiana</option>
+              <option value="ME">Maine</option>
+              <option value="MD">Maryland</option>
+              <option value="MA">Massachusetts</option>
+              <option value="MI">Michigan</option>
+              <option value="MN">Minnesota</option>
+              <option value="MS">Mississippi</option>
+              <option value="MO">Missouri</option>
+              <option value="MT">Montana</option>
+              <option value="NE">Nebraska</option>
+              <option value="NV">Nevada</option>
+              <option value="NJ">New Jersey</option>
+              <option value="NM">New Mexico</option>
+              <option value="NY">New York</option>
+              <option value="NC">North Carolina</option>
+              <option value="ND">North Dekota</option>
+              <option value="OH">Ohio</option>
+              <option value="OK">Oklahoma</option>
+              <option value="OR">Oregon</option>
+              <option value="PA">Pennsylvania</option>
+              <option value="RI">Rhode Island</option>
+              <option value="SC">South Carolina</option>
+              <option value="SD">South Dekota</option>
+              <option value="TN">Tennessee</option>
+              <option value="TX">Texas</option>
+              <option value="UT">Utah</option>
+              <option value="VT">Vermont</option>
+              <option value="VA">Virginia</option>
+              <option value="WA">Washington</option>
+              <option value="WV">West Virginia</option>
+              <option value="WI">Wisconsin</option>
+              <option value="WY">Wyoming</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="start">Dates</label>
+          </div>
+          <div class="col-75">
+            <input type="date" id="start" name="stay">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="nights">Number of Nights</label>
+          </div>
+          <div class="col-75">
+            <input type="number" min="0" id="nights" name="nights">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Message</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="reset" value="Reset">
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="email">Your E-mail</label>
+  </main>
+  <footer>
+    <ul class="contact-info">
+      <li>Temple Inn & Suites Headquarters<br>
+        355 Wisconsin Avenue<br>
+        Bethesda, MD 20814<br></li>
+      <li>215-829-9999</li>
+      <li>info@templeinn.com</li>
+    </ul>
+    <div class="social">
+      <ul>
+        <li><a href="http://Facebook.com"><img src="images/fb-icon.png" alt="Facebook icon"></a></li>
+        <li><a href="http://twitter.com"><img src="images/twitter-icon.png" alt="twitter icon"></a></li>
+        <li><a href="http://Instagram.com"><img src="images/insta-icon.png" alt="Instagram icon"></a></li>
+      </ul>
     </div>
-    <div class="col-75">
-      <input type="email" id="email" name="email" placeholder="Your e-mail address">
+    <div class="copyright">
+      <p class="copyright"> &copy; 2020 Temple Inn & Suites | All Rights Reserved | <a class="terms" href="#"> Privacy
+          &amp; Cookie Statement</a> | Altanbayar Purevtogtokh</p>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="state">State</label>
-    </div>
-    <div class="col-75"> 
-        <select name="state" id="state">
-                        <option value="" disabled selected>Select a State</option>
-                        <option value="AL">Alabama</option>
-                        <option value="AK">Alaska</option>
-                        <option value="AZ">Arizona</option>
-                        <option value="AR">Arkansas</option>
-                        <option value="CA">California</option>
-                        <option value="CO">Colorado</option>
-                        <option value="CT">Connecticut</option>
-                        <option value="DE">Delaware</option>
-                        <option value="DC">District Of Columbia</option>
-                        <option value="FL">Florida</option>
-                        <option value="GA">Georgia</option>
-                        <option value="HI">Hawaii</option>
-                        <option value="ID">Idaho</option>
-                        <option value="IL">Illinois</option>
-                        <option value="IN">Indiana</option>
-                        <option value="IA">Iowa</option>
-                        <option value="KS">Kansas</option>
-                        <option value="KY">Kentucky</option>
-                        <option value="LA">Luisiana</option>
-                        <option value="ME">Maine</option>
-                        <option value="MD">Maryland</option>
-                        <option value="MA">Massachusetts</option>
-                        <option value="MI">Michigan</option>
-                        <option value="MN">Minnesota</option>
-                        <option value="MS">Mississippi</option>
-                        <option value="MO">Missouri</option>
-                        <option value="MT">Montana</option>
-                        <option value="NE">Nebraska</option>
-                        <option value="NV">Nevada</option>
-                        <option value="NJ">New Jersey</option>
-                        <option value="NM">New Mexico</option>
-                        <option value="NY">New York</option>
-                        <option value="NC">North Carolina</option>
-                        <option value="ND">North Dekota</option>
-                        <option value="OH">Ohio</option>
-                        <option value="OK">Oklahoma</option>
-                        <option value="OR">Oregon</option>
-                        <option value="PA">Pennsylvania</option>
-                        <option value="RI">Rhode Island</option>
-                        <option value="SC">South Carolina</option>
-                        <option value="SD">South Dekota</option>
-                        <option value="TN">Tennessee</option>
-                        <option value="TX">Texas</option>
-                        <option value="UT">Utah</option>
-                        <option value="VT">Vermont</option>
-                        <option value="VA">Virginia</option>
-                        <option value="WA">Washington</option>
-                        <option value="WV">West Virginia</option>
-                        <option value="WI">Wisconsin</option>
-                        <option value="WY">Wyoming</option>
-                    </select>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="start">Dates</label>
-    </div>
-    <div class="col-75">
-      <input type="date" id="start" name="stay">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="nights">Number of Nights</label>
-    </div>
-    <div class="col-75">
-      <input type="number" min="0" id="nights" name="nights">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="subject">Message</label>
-    </div>
-    <div class="col-75">
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    </div>
-  </div>
-  <div class="row">
-    <input type="reset" value="Reset">
-  </div><div class="row">
-    <input type="submit" value="Submit">
-  </div>
-  </form>
-</div>
-            </main>
-        <footer> 
-                <ul class="contact-info">
-                <li>Temple Inn & Suites Headquarters<br>
-                    355 Wisconsin Avenue<br>
-                    Bethesda, MD 20814<br></li>
-                <li>215-829-9999</li>
-                <li>info@templeinn.com</li>
-                </ul>
-             <div class="social">
-               <ul>
-                <li><a href="http://Facebook.com"><img src="images/fb-icon.png" alt="Facebook icon"></a></li>
-                <li><a href="http://twitter.com"><img src="images/twitter-icon.png" alt="twitter icon"></a></li>
-                <li><a href="http://Instagram.com"><img src="images/insta-icon.png" alt="Instagram icon"></a></li>
-               </ul>
-             </div>
-             <div class="copyright">
-                 <p class="copyright"> &copy; 2020 Temple Inn & Suites | All Rights Reserved | <a class="terms" href="#"> Privacy &amp; Cookie Statement</a> | Altanbayar Purevtogtokh</p>
-            </div>
-        </footer>
-    </body>
+  </footer>
+</body>
+
 </html>
