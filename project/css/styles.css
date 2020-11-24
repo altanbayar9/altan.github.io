@@ -204,6 +204,7 @@ form.example {
     width: 300px;
 }
 
+
 /* Style the search field */
 form.example input[type=text] {
     padding: 10px;
@@ -213,7 +214,9 @@ form.example input[type=text] {
     width: 80%;
     background: #f1f1f1;
 }
-
+.search-button{
+    padding: none;
+}
 /* Style the submit button */
 form.example button {
     float: left;
@@ -459,25 +462,17 @@ textarea {
     resize: vertical;
 }
 
-label {
+/*label {
     padding: 12px 12px 12px 0;
     display: inline-block;
-}
+}*/
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #2196F3;
     color: rgb(0, 0, 0);
     padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    float: right;
-}
-
-input[type=reset] {
-    background-color: #4CAF50;
-    color: rgb(0, 0, 0);
-    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 200;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -488,9 +483,6 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-input[type=reset]:hover {
-    background-color: #45a049;
-}
 
 .container {
     border-radius: 5px;
