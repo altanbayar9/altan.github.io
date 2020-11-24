@@ -19,13 +19,17 @@ header {
 .brand {
     display: inline-flex;
 }
-
+.logo {
+    display: flex;
+    justify-content: left;
+    margin: 30px 20px;
+}
 ul {
     float: right;
 }
 
 main {
-    background-color: rgb(174, 200, 248);
+    background-color: rgb(230, 238, 255);
 }
 
 h1 {
@@ -51,7 +55,18 @@ h1 {
     padding: 1em;
     text-align: center;
 }
-
+.action h2{
+    font-size: 1.5rem;
+}
+.p1 h2 a{
+    color: black;
+}
+.p2 h2 a{
+    color:black;
+}
+.p3 h2 a{
+    color:black;
+}
 .hero-image {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -131,11 +146,7 @@ body {
     font-size: 16px;
 }
 
-.logo {
-    display: flex;
-    justify-content: left;
-    margin: 30px 20px;
-}
+
 
 picture .hero-image {
     background-color: rgb(245, 102, 7);
@@ -224,7 +235,7 @@ form.example button {
     padding: 10px;
     background: #2196F3;
     color: white;
-    font-size: 17px;
+    font-size: 10px;
     border: 1px solid grey;
     border-left: none;
     /* Prevent double borders */
@@ -567,9 +578,7 @@ div.gallery:hover {
 }
 @media screen and (max-width: 550px) {
 
-    body,
-    main,
-    div {
+    body {
         display: block;
     }
 }
