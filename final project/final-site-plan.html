@@ -3,36 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="final-site.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Family Store</title>
   <link rel="stylesheet" href="#">
 </head>
 <body>
   <header>
-      <a href="final-site-plan.html" class="logo">
-                    <img src="placehold.it/30x30" alt="family store logo" width=30>
-                </a>
+      <div class="logo"> <a href="final-site-plan.html" class="logo">
+                    <img src="placehold.it/30x30" alt="family store logo">
+                </a></div>
                  <h1> Family store </h1>
-        <nav> 
-            <ul class="dropdown">
-                <li><a href="#"> Home </a></li>
-                <li><a href="#"> Women </a></li>
-                <li><a href="#"> Men </a></li>
-                <li><a href="#"> Kids </a></li>
-                <li><a href="#"> Home </a></li>
-                <li><a href="#"> Accessory</a></li>
-                <li><a href="#"> Food </a></li>
-                <li><a href="#"> Other </a></li>
-            </ul>
-        </nav>
+            <button style="font-size:24px">Live<i class="material-icons">radio_button_checked</i></button>
+        <div class="nav-menu">
+                <button class="dropbtn">Menu</button>
+            <div class="menu-content">
+                <a href="#"> Women </a>
+                <a href="#"> Men </a>
+                <a href="#"> Kids </a>
+                <a href="#"> Home </a>
+                <a href="#"> Accessory</a>
+                <a href="#"> Food </a>
+                <a href="#"> Other </a>
+            </div>
+        </div>
     </header>
     <main>
         <section>
           <form action="/action_page.php">
-              <input type="text" placeholder="Search.." name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
+              <label for="search"></label>
+                <input type="text" placeholder="Search .." name="search" id="search">
+                <button type="submit" name="search-icon">Search</button>
           </form>
         </section> 
-        <img src="images/family-store-wf.png" alt="wireframe">
+        <img src="images-final/family-store-wf.png" alt="wireframe">
         <section>
             <a href="#" class="women"> 
             <img src="placehold.it/200x300" alt="women model"></a>
