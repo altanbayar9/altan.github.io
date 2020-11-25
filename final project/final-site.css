@@ -1,3 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Homemade+Apple&family=Luckiest+Guy&family=Monoton&family=Noto+Serif+SC:wght@200&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Luckiest+Guy&family=Monoton&family=Noto+Serif+SC:wght@200&family=Press+Start+2P&display=swap');
+:root {
+  --primary-color: #bfd8d2;
+  --secondary-color: #907878;
+  --accent1-color: #df744a;
+  --accent2-color: #dcb239;
+  --heading-font: 'Aclonica', sans-serif;
+  --paragraph-font: 'Noto Serif SC', serif;
+}
+html {
+  background-color: var(--primary-color);
+}
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1.5rem;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--heading-font);
+  color: #042425 ;
+  padding: 1rem;
+}
+header {
+  padding: 1em;
+  text-align: center;
+  color: #df744a;
+  background-color: #bfd8d2;
+}
+main{
+    background-color: #FEDCD2;
+}
+footer,.copyright{
+    background-color: #DF744A;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+}
+header > h1 {
+  color: white;
+}
+p {
+  font-family: var(--paragraph-font);
+  color: #000000 ;
+  padding: 1em;
+}
+.colored{
+    border: 2px solid;
+    background-color:  #907878;
+    color: white;
+}
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2 {
+  background-color: var(--accent2-color);
+}
+.colors th {
+  background-color: #a7b3ca;
+  color: white;
+}
+.colors td {
+  width: 30%;
+  height: 4rem;
+}
+
+nav {
+  background-color:#907878;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+nav > ul {
+  list-style-type: none;
+  display: flex;
+}
+nav a {
+  padding: 1em;
+  min-width: 70px;
+}
+nav a:link,
+nav a:visited {
+  color:white;
+}
+nav a:hover {
+  color: #293241 ;
+  background-color: #bfd8d2;
+}
+td, th { 
+    border-bottom: 1px solid #000000;
+    text-align: left;
+}
+
+/*
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -27,15 +127,15 @@
     display: block;
   }
   
-  /* Change color of dropdown links on hover */
+
   .menu-content a:hover {background-color: #f1f1f1}
   
-  /* Show the dropdown menu on hover */
+ 
   .nav-menu:hover .menu-content {
     display: block;
   }
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
+  
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
-  }
+  } */
