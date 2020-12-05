@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+       }
+       img {
+           max-width: 100%;
+        
+           }
+       .card{
+           grid-column: 1;
+           width: 320px;
+           box-shadow: 1px 1px 4px 1px #888;
+           border-radius: 3px;
+           background-color: white; 
+           font-family: 'Helvetica', 'sans-serif';
+           margin-left: 200px;
+           margin-top: 50px;
+           overflow: hidden;
+       }   
+       p{
+           padding: 0px 10px;
+       }  
+       footer{
+        grid-row: 2;
+        padding: 0px 20px;   
+        padding-bottom: 15px    ;
+       }
+       .editbutton{
+          margin-left: -7px;
+       }
+       button{
+           background-color: white;
+           border-radius: 3px;
+           padding: 8px;
+           display: inline-flex;
+           
+       }
+       .time{
+           float: right;
+           padding: 10px 20px;
+       }
+           
+    </style>
+</head>
+<body>
+  <article class="card">
+        <img src="https://picsum.photos/320/240" alt="random picture">
+        <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is little bit longer.</p>
+     <footer>
+        <button class="viewbutton">View</button>
+        <button class="editbutton">Edit</button>
+        <span class="time">9 mins</span>
+     </footer>
+  </article>
+</body>
+
+</html>
