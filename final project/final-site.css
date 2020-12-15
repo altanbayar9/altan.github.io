@@ -9,7 +9,7 @@
   --paragraph-font: 'Noto Serif SC', serif;
 }
 html {
-  background-color: var(--primary-color);
+  background-color: whitesmoke;
 }
 body {
   max-width: 900px;
@@ -37,67 +37,13 @@ footer,.copyright{
     font-size: 1.3rem;
 }
 header > h1 {
-  color: white;
+  color: rgb(10, 10, 10);
 }
 p {
   font-family: var(--paragraph-font);
   color: #000000 ;
   padding: 1em;
 }
-.colored{
-    border: 2px solid;
-    background-color:  #907878;
-    color: white;
-}
-.primary {
-  background-color: var(--primary-color);
-}
-.secondary {
-  background-color: var(--secondary-color);
-}
-.accent1 {
-  background-color: var(--accent1-color);
-}
-.accent2 {
-  background-color: var(--accent2-color);
-}
-.colors th {
-  background-color: #a7b3ca;
-  color: white;
-}
-.colors td {
-  width: 30%;
-  height: 4rem;
-}
-
-nav {
-  background-color:#907878;
-  line-height: 3em;
-  text-align: center;
-  font-size: 1.2em;
-}
-nav > ul {
-  list-style-type: none;
-  display: flex;
-}
-nav a {
-  padding: 1em;
-  min-width: 70px;
-}
-nav a:link,
-nav a:visited {
-  color:white;
-}
-nav a:hover {
-  color: #293241 ;
-  background-color: #bfd8d2;
-}
-td, th { 
-    border-bottom: 1px solid #000000;
-    text-align: left;
-}
-
-/*
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -138,4 +84,33 @@ td, th {
   
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
-  } */
+  } 
+  
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
