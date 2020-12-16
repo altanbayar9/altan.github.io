@@ -99,14 +99,24 @@ p {
   color: #000000;
   padding: 1em;
 }
+.livebutton{
+  background-color: grey;
+  color: white;
+  width: 100px;
+  border-radius: 10px;
+}
 
 .dropbtn {
   background-color: #4CAF50;
   color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+  padding: 10px;
+  font-size: 14px;
+  border: 5px;
   cursor: pointer;
+  float: right;
+  height: 50px;
+  width: 150px;
+  margin: auto;
 }
 
 .nav-menu {
@@ -117,8 +127,9 @@ p {
 .menu-content {
   display: none;
   position: absolute;
+  margin-top: 75px;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -215,4 +226,81 @@ footer {
 }
 .itemcard{
   display: flex;
+}
+
+.center {
+  text-align: center;
+  
+}
+
+.right {
+  float: right;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: #0275d8;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0px;
+}
+
+.pagination a.active {
+  background-color: #0275d8;
+  color: white;
+  border: 1px solid #0275d8;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.rcorners2 {
+  border-radius: 25px;
+  /* border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;   */
+}
+
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.btn-group button {
+  align-self: center;
+  margin: auto;
+  background-color: #0275d8; /* Green background */
+  border: 1px solid #0275d8; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 20%;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #4e90c9;
 }
