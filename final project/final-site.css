@@ -195,7 +195,8 @@ footer {
 .social {
   grid-column: 1/2;
   grid-row: 2;  
-  align-self: center;
+  justify-self: center;
+  
 }
 
 .social li {
@@ -207,4 +208,11 @@ footer {
   grid-column: 2/3;
   justify-self: center;
   padding-top: 20px;
+}
+.history img {
+  float: left;
+  padding: 20px;
+}
+.itemcard{
+  display: flex;
 }
