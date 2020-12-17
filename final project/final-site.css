@@ -18,18 +18,18 @@ body {
   max-width: 900px;
   margin: 0 auto;
   background-color: white;
-  padding: 1.5rem;
+
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
   font-family: var(--heading-font);
   color: #042425;
-  padding: 1rem;
+  align-self: center;
+}
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #042425;
+  align-self: center;
 }
 
 header {
@@ -46,8 +46,28 @@ header {
 }
 
 .topnav {
-  justify-content: inline-end;
-  align-self: end;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid none solid none;
+}
+.icon {
+  width: 40px;
+  margin: 0 10px 0 10px;
+}
+.livebtn {
+  right: 0px;
+  margin: auto;
+}
+.livebtn button {
+  background-color: white;
+  color:black;
+}
+
+.material-icons {
+  color: red;
+  align-items: start;
 }
 
 .mainpic {
@@ -97,7 +117,11 @@ header>h1 {
 p {
   font-family: var(--paragraph-font);
   color: #000000;
-  padding: 1em;
+  
+}
+section{
+  border-top: 3px solid black;
+  padding: 4px 0;
 }
 .livebutton{
   background-color: grey;
@@ -105,17 +129,44 @@ p {
   width: 100px;
   border-radius: 10px;
 }
+.search {
+  box-sizing: border-box;
+  /* border: none; */
+  border-radius: 50%;
+  width: 80%;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-left: 15px;
+  border: 1px solid black;
+  position: relative;
+  
+}
+.magglass{
+  box-sizing: border-box;
+  /* border: none; */
+  border-radius: 50%;
+  width: 4%;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-left: 15px;
+  border: 1px solid black;
+  justify-content: center;
+  position: absolute;
 
+}
 .dropbtn {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #df744a;
+  color: black;
   padding: 10px;
-  font-size: 14px;
+  font-size: 18px;
   border: 5px;
+  border-radius: 20px;
   cursor: pointer;
   float: right;
   height: 50px;
-  width: 150px;
+  width: 250px;
   margin: auto;
 }
 
@@ -160,6 +211,7 @@ p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
+  padding: 0 10px;
   text-align: center;
   font-family: arial;
 }
@@ -214,6 +266,7 @@ footer {
     list-style-type: none;
     display: inline-block;
     margin: auto;
+    padding: 0 25px;
 }
 .mappic{
   grid-column: 2/3;
@@ -224,8 +277,13 @@ footer {
   float: left;
   padding: 20px;
 }
+.history p{
+  padding: 20px;
+}
 .itemcard{
   display: flex;
+  width: auto;
+  
 }
 
 .center {
@@ -239,9 +297,18 @@ footer {
   border: 3px solid #73AD21;
   padding: 10px;
 }
-
+.viewbtn{
+  margin-top:200px;
+  justify-self: center;
+  width: 50%;
+  border: none;
+  border-radius: 20px;
+  background-color: transparent;
+  
+}
 .pagination {
   display: inline-block;
+  padding-top: 5px;
 }
 
 .pagination a {
@@ -275,13 +342,21 @@ footer {
   cursor: not-allowed;
   opacity: 0.5;
   text-decoration: none;
+  border-radius: 25px;
 }
-
+.next{
+  border-radius: 25px;
+}
+.btn-group{
+  padding-bottom: 5px;
+}
 .btn-group button {
   align-self: center;
   margin: auto;
-  background-color: #0275d8; /* Green background */
-  border: 1px solid #0275d8; /* Green border */
+  background-color: #907878;
+  border: 1px solid #907878;
+  border-radius: 80px; 
+  height: 100px;
   color: white; /* White text */
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
@@ -302,5 +377,61 @@ footer {
 
 /* Add a background color on hover */
 .btn-group button:hover {
-  background-color: #4e90c9;
+  background-color: #df744a;
+}
+.main {
+  display: flex;
+  margin: 40px 0 40px 0px;
+}
+
+.section-container {
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.side-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.vertical-style {
+  border-style: none solid none none;
+}
+
+.login-container button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main .row {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+.itemrev{
+  padding: 20px 20px;
+}
+
+.store-address iframe{
+  float: left;
+  padding: 20px;
+}
+.store-address h4{
+  padding-top: 30px;
+}
+.history h1{
+  padding-left:20px;
 }
